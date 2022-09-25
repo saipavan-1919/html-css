@@ -1,0 +1,80 @@
+HTML NOTES:
+
+HTML is known as the Hyper text markup language.
+Hypertext refers to the way the links are placed in the website.
+Markup lanaguage is used to structure the web sites.
+
+
+Tags:
+	* html uses tags to structure the websites.
+	* There are many tags available in the html like (<p>, <h1>, <h2>, <img>, <button> etc..)
+	* html is case insenssitive language.
+	* It takes both <IMG> and <img> as same.
+
+Structure of html file:
+	* html file written in a structured way.
+	* It is known as documnetation of html.
+	* There are some tags that are used in structuring a html file.
+	  ex: <!doctype> - refers to the html version
+	      <head> - used to write title and add the stylesheets ( link css file)
+		  <body> - used to write structure of the website
+	* Lets see the structure of the html file
+			<!doctype html>                                                      
+			<html>                                                               
+				<head>                                                           
+					<!-- used to write the title and link the stylesheet(css)--> 
+				</head>                                                          
+				<body>                                                           
+					<!-- used for defining the structure of the website-->       
+				</body>                                                          
+			</html>                                                               
+	
+Element:
+	* A html element consist of a open tag and a closing tag.
+	  ex: <p> </p>, <h1> </h1> etc..
+	* If a element consist of only open tag and no closing tag then those are called
+	  as void elements.
+	  ex: <img>, <link>, <input> etc..
+	  
+Heading tags:
+	* The Heading tags are used for the indicatiion of headings in the website.
+	* There are 6 heading tags available to used.
+	* The heading tags size decrease based on their order.
+	tags syntax: <h1></h1> - main heading
+			  <h2> </h2>
+			  <h3> </h3>
+			  <h4> </h4>
+			  <h5> </h5>
+			  <h6> </h6>
+	ex: <h1> This is a heading1 </h1>
+			  
+Paragraph tag:
+	* The paragraph tag is used to write the content of the webpage.
+	syntax: <p> </p>
+	ex: <p> This is the paragrph tag </p>
+	
+Anchor tag:
+	* The anchor tag is used to insert the links into the text on the page.
+	syntax: <a href=""> </a>
+	* href is the attribute used to point the link of the another site.
+	ex: <p> click <a href="linkedin.com"> here</a> to checkout linkedin</p>
+		"here" is displayed as a link to the other website.
+	
+Input tag:
+	* The input tag is used to take the input from the website.
+	syntax: <input>
+	ex: <input type="text" placeholder="search here">
+	* type indicates which type of input you are taking.
+	* palceholder attribute is used to display the text in palce of serch bar.
+
+Divider/Container Tag:
+	* The div tag is used as a container of other tags.
+	* In this we can keep other tags like <h1>, <p>, <a>, <input> etc..
+	* By using div tag we can modify the other tags properties.
+	syntax: <div> </div>
+	ex: <div class="container">
+			<h1> This is a heading </h1>
+			<p> This is paragraph </p>
+		</div>
+	* class is a attribute used to identify any of the tags by assigning a name.
+	
