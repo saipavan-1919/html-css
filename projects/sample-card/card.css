@@ -1,0 +1,12 @@
+.card {
+	margin:100px;
+	height:500px;
+	border:1px solid black;
+	background:orange;
+}
+
+.image{
+	margin-top:150px;
+	margin-left:20px;
+	border:1px solid black;
+}
